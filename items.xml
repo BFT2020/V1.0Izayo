@@ -1,0 +1,35 @@
+<configs>
+
+
+		<!--	***************************	-->
+		<!--	  	IZY_GUNMOD_GLOVES       -->
+		<!--	***************************	-->
+	<append xpath="//item[@name='armorPrimitiveGloves']">	
+		<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="WearingArmorLeather"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="WearingArmorLeather"/>
+		</effect_group>
+	</append>
+
+	<append xpath="//item[@name='armorCommandoGloves']">	
+		<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="WearingArmorMilitaryGrey"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="WearingArmorMilitaryGrey"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="//item[@name='armorBikerGloves']">	
+		<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="WearingArmorSteel"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="WearingArmorSteel"/>
+		</effect_group>
+	</append>
+
+	<append xpath="//item[@name='armorLumberjackGloves']">	
+		<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="WearingArmorDesert"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="WearingArmorDesert"/>
+		</effect_group>
+	</append>
+
+</configs>
